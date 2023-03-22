@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-princiapl: Roboto;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fontes/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fontes/Inter-Regular.ttf);
+}
+body{
+    font-family: Inter;
+    background: linear-gradient(white, rgba(151, 245, 127, 0.562) 80%, white);
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ 
+}
+form{
+    box-shadow: 10px 10px 10px rgb(218, 213, 213);
+    border: 1px solid rgb(211, 235, 186);
+    background-color: rgba(151, 245, 127, 0.562);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 60px;
+    font-size: 20px;
+
+}
+label{
+    font-weight: bold;
+   
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 188, 188);
+    color: rgb(18, 65, 14);
+    font-size: 15px;
+    
+    
+
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
